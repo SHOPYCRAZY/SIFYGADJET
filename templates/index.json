@@ -85,8 +85,9 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/scify-tool-for-dropshipping.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
@@ -105,6 +106,7 @@
         "slide_zcaUNM": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/scify-tool-for-dropshipping.png",
             "image_overlay_opacity": 0,
             "heading": "Diapositiva de imagen",
             "heading_size": "h1",
