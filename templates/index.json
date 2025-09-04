@@ -9,13 +9,163 @@
  */
 {
   "sections": {
+    "rich_text_9VNgP9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qVfLwF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who are we really?",
+            "heading_size": "h1"
+          }
+        },
+        "text_gCi9yx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shopicrazy is a dynamic platform that brings innovative products to the market, always in line with the latest global trends. We are committed to offering a reliable and accessible shopping experience, enhanced by a constantly evolving catalogue.<br/><br/>Combining vision, flexibility and customer focus, Shopicrazy positions itself as a partner of choice for those seeking novelty, originality and quality in an ever-changing world.<br/></p>"
+          }
+        },
+        "button_LAgtX6": {
+          "type": "button",
+          "settings": {
+            "button_label": "view products",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "button_label_2": "contact us",
+            "button_link_2": "shopify://pages/contact",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qVfLwF",
+        "text_gCi9yx",
+        "button_LAgtX6"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_yCJRYL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_crnQfn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Imagen con texto",
+            "heading_size": "h1"
+          }
+        },
+        "text_4aMGP4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_P3tUFf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_crnQfn",
+        "text_4aMGP4",
+        "button_P3tUFf"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_Abpt9b": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_zcaUNM": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Diapositiva de imagen",
+            "heading_size": "h1",
+            "subheading": "Cuenta la historia de tu marca a través de imágenes",
+            "button_label": "Etiqueta de botón",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_kjm9Lc": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Diapositiva de imagen",
+            "heading_size": "h1",
+            "subheading": "Cuenta la historia de tu marca a través de imágenes",
+            "button_label": "Etiqueta de botón",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_zcaUNM",
+        "slide_kjm9Lc"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Presentación de diapositivas sobre tu marca"
+      }
+    },
     "collage-0": {
       "type": "collage",
       "blocks": {
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "frontpage"
+          }
+        },
+        "collection_EiRnt7": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
           }
         },
         "collection-1": {
@@ -27,6 +177,7 @@
       },
       "block_order": [
         "collection-0",
+        "collection_EiRnt7",
         "collection-1"
       ],
       "settings": {
@@ -70,6 +221,9 @@
     }
   },
   "order": [
+    "rich_text_9VNgP9",
+    "image_with_text_yCJRYL",
+    "slideshow_Abpt9b",
     "collage-0",
     "featured-collection"
   ]

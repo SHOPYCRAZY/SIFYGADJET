@@ -30,24 +30,25 @@
         "padding_bottom": 20
       }
     },
-    "announcement-bar": {
+    "announcement_bar_BgzJbC": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-bar-0": {
+        "announcement_cbHnTW": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to your trusted store",
+            "text": "Te damos la bienvenida a nuestra tienda",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement_cbHnTW"
       ],
+      "name": "t:sections.announcement-bar.presets.name",
       "settings": {
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "color_scheme": "scheme-4",
+        "color_scheme": "",
         "show_line_separator": true,
         "show_social": false,
         "enable_country_selector": false,
@@ -57,6 +58,6 @@
   },
   "order": [
     "header",
-    "announcement-bar"
+    "announcement_bar_BgzJbC"
   ]
 }
