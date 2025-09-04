@@ -35,9 +35,9 @@
         "desktop_layout": "right",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 0
+        "color_scheme": "scheme-3",
+        "padding_top": 4,
+        "padding_bottom": 16
       }
     },
     "featured-collection": {
