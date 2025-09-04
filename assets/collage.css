@@ -1,10 +1,17 @@
 .collage-wrapper-title {
   margin-top: 0;
   margin-bottom: 3rem;
+  color: rgb(var(--color-accent2));
+  font-family: var(--font-family-sci-fi);
+  text-shadow: 0 0 10px rgba(var(--color-accent2), 0.18);
 }
 
 .collage {
   display: grid;
+  background: rgba(30, 36, 54, 0.80);
+  border-radius: 1.2em;
+  box-shadow: 0 0 18px 0 rgba(var(--color-glow), 0.08), 0 2px 18px 0 rgba(0,0,0,0.12);
+  border: 1.2px solid rgba(var(--color-accent), 0.08);
 }
 
 .collage__item > * {

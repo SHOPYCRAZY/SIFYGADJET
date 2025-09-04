@@ -1,5 +1,5 @@
 .card-wrapper {
-  color: inherit;
+  color: rgb(var(--color-foreground));
   height: 100%;
   position: relative;
   text-decoration: none;
@@ -8,12 +8,23 @@
 .card {
   text-decoration: none;
   text-align: var(--text-alignment);
+  background: rgba(30, 36, 54, 0.92);
+  border-radius: 1.2em;
+  box-shadow: 0 0 18px 0 rgba(var(--color-glow), 0.10), 0 2px 18px 0 rgba(0,0,0,0.15);
+  border: 1.2px solid rgba(var(--color-accent), 0.10);
+  font-family: var(--font-family-sci-fi);
+  transition: box-shadow 0.2s, border 0.2s;
 }
 
 .card:not(.ratio) {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 0 32px 4px rgba(var(--color-glow), 0.25);
+  border: 1.5px solid rgba(var(--color-accent), 0.22);
 }
 
 .card.card--horizontal {
