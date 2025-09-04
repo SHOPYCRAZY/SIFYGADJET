@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYFY Gadget Dropshipping</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: linear-gradient(120deg, #1a2238 0%, #283655 100%);
+            color: #222b45;
+        }
+        header {
+            background: #fff;
+            padding: 1.5rem 0 1rem 0;
+            text-align: center;
+            border-bottom: 1px solid #e0e6ed;
+            box-shadow: 0 2px 8px #1a22380a;
+        }
+        header h1 {
+            font-size: 2.4rem;
+            letter-spacing: 0.12em;
+            color: #1a2238;
+            margin: 0;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.1rem;
+            color: #4b5c7a;
+            margin: 0.5rem 0 0 0;
+        }
+        nav {
+            margin: 1.2rem 0 0 0;
+        }
+        nav a {
+            color: #283655;
+            text-decoration: none;
+            margin: 0 1.2rem;
+            font-weight: 700;
+            padding-bottom: 2px;
+            border-bottom: 2px solid transparent;
+            transition: border 0.2s, color 0.2s;
+        }
+        nav a:hover {
+            color: #1a8cff;
+            border-bottom: 2px solid #1a8cff;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #f7f9fa;
+            border-radius: 14px;
+            box-shadow: 0 2px 16px #1a22380a;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 2rem;
+        }
+        .product {
+            background: #fff;
+            border-radius: 10px;
+            border: 1px solid #e0e6ed;
+            box-shadow: 0 2px 8px #1a22380a;
+            padding: 1.2rem 1rem 1.5rem 1rem;
+            text-align: center;
+            transition: transform 0.18s, box-shadow 0.18s;
+        }
+        .product:hover {
+            transform: translateY(-6px) scale(1.02);
+            box-shadow: 0 6px 24px #1a8cff33;
+            border-color: #1a8cff;
+        }
+        .product img {
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+            margin-bottom: 1rem;
+            filter: drop-shadow(0 0 8px #1a8cff33);
+        }
+        .product h3 {
+            color: #1a8cff;
+            margin: 0.5rem 0 0.2rem 0;
+            font-size: 1.15rem;
+        }
+        .product p {
+            color: #4b5c7a;
+            font-size: 0.98rem;
+            margin: 0.5rem 0 1rem 0;
+        }
+        .product .price {
+            font-size: 1.1rem;
+            color: #283655;
+            font-weight: bold;
+            margin-bottom: 0.7rem;
+        }
+        .product button {
+            background: linear-gradient(90deg, #1a8cff 0%, #283655 100%);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 0.65rem 1.3rem;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 2px 8px #1a8cff22;
+            transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+        }
+        .product button:hover {
+            background: #fff;
+            color: #1a8cff;
+            box-shadow: 0 4px 16px #1a8cff44;
+            border: 1px solid #1a8cff;
+        }
+        footer {
+            text-align: center;
+            color: #4b5c7a;
+            padding: 1.5rem 0 1rem 0;
+            font-size: 1rem;
+            background: transparent;
+            border-top: 1px solid #e0e6ed;
+            margin-top: 2rem;
+        }
+        @media (max-width: 700px) {
+            .container {
+                padding: 1rem;
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SYFY Gadget Dropshipping</h1>
+        <p>Il tuo shop di gadget futuristici, affidabile e professionale. Spedizione rapida, assistenza garantita!</p>
+        <nav>
+            <a href="#prodotti">Prodotti</a>
+            <a href="#chi-siamo">Chi Siamo</a>
+            <a href="#contatti">Contatti</a>
+        </nav>
+    </header>
+    <div class="container" id="prodotti">
+        <h2 style="color:#00ffe7;">Gadget in Evidenza</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://cdn.pixabay.com/photo/2017/01/31/13/14/robot-2027195_1280.png" alt="Robot Intelligente">
+                <h3>Robot Intelligente</h3>
+                <p>Assistente personale con AI, controllo vocale e connessione IoT. Il futuro a casa tua!</p>
+                <div class="price">€129,99</div>
+                <button>Acquista Ora</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn.pixabay.com/photo/2016/03/31/19/56/vr-1299430_1280.png" alt="Visore VR 3D">
+                <h3>Visore VR 3D</h3>
+                <p>Esperienza immersiva per gaming, film e viaggi virtuali. Compatibile con tutti i device.</p>
+                <div class="price">€89,99</div>
+                <button>Acquista Ora</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn.pixabay.com/photo/2014/04/03/10/32/alien-312814_1280.png" alt="Lampada Alien">
+                <h3>Lampada Alien</h3>
+                <p>Luce LED RGB con design extraterrestre. Atmosfera sci-fi per ogni ambiente.</p>
+                <div class="price">€39,99</div>
+                <button>Acquista Ora</button>
+            </div>
+            <div class="product">
+                <img src="https://cdn.pixabay.com/photo/2017/01/31/13/13/robot-2027192_1280.png" alt="Speaker Olografico">
+                <h3>Speaker Olografico</h3>
+                <p>Audio 360° e proiezione olografica. Musica e tecnologia si fondono nel futuro.</p>
+                <div class="price">€59,99</div>
+                <button>Acquista Ora</button>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="chi-siamo">
+        <h2 style="color:#00ffe7;">Chi Siamo</h2>
+        <p>Siamo un team appassionato di tecnologia e fantascienza, con anni di esperienza nel dropshipping. Offriamo solo prodotti selezionati, spedizioni rapide e un servizio clienti sempre disponibile. La tua soddisfazione è la nostra missione!</p>
+    </div>
+    <div class="container" id="contatti">
+        <h2 style="color:#00ffe7;">Contatti</h2>
+        <p>Email: <a href="mailto:info@syfygadget.com" style="color:#00ffe7;">info@syfygadget.com</a></p>
+        <p>Telefono: <a href="tel:+390123456789" style="color:#00ffe7;">+39 012 3456789</a></p>
+        <p>Seguici su <a href="#" style="color:#00ffe7;">Instagram</a> e <a href="#" style="color:#00ffe7;">Facebook</a></p>
+    </div>
+    <footer>
+        &copy; 2025 SYFY Gadget Dropshipping. Tutti i diritti riservati.
+    </footer>
+</body>
+</html>
