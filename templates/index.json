@@ -155,44 +155,6 @@
         "accessibility_info": "Presentación de diapositivas sobre tu marca"
       }
     },
-    "collage-0": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "frontpage"
-          }
-        },
-        "collection_EiRnt7": {
-          "type": "collection",
-          "settings": {
-            "collection": "frontpage"
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "frontpage"
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "collection_EiRnt7",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-3",
-        "padding_top": 4,
-        "padding_bottom": 16
-      }
-    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -226,7 +188,6 @@
     "rich_text_9VNgP9",
     "image_with_text_yCJRYL",
     "slideshow_Abpt9b",
-    "collage-0",
     "featured-collection"
   ]
 }
